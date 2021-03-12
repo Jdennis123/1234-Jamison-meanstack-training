@@ -1,0 +1,40 @@
+#d1{
+    padding: 20px;
+    border: solid red 2px;
+    margin: 10px;
+    width: 120px;
+    height: 150px;
+    float: left;
+    font-size: 10px;
+    animation-name: myanimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes myanimation{
+    0% {background-color: red;}
+    25%{background-color: seagreen;}
+    50%{background-color: yellow;}
+    75%{background-color: springgreen;}
+    100%{background-color: brown;}
+}
+#d2{
+    transform: rotateY(45deg);
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    border-color: darkblue;
+    border-style: ridge;
+    border-width: 10px;
+}
+#d3{
+    padding: 20px;
+    border: gold solid 2px;
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 40px;
+    text-align: center;
+    vertical-align: center;
+    background-color: blue;
+}
