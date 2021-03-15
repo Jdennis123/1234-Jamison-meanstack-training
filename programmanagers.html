@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="budgetplanner.js"></script>
+
+</head>
+<body>
+
+<h2><u>Add New Budget</u></h2>
+<form>
+    <label>Client Name</label>
+    <input type="text" id="Client Name"/><br/>
+    <label>Project Name</label>
+    <input type="text" id="name2"/><br/>
+    <label>Budget</label>
+    <input type="number" id="num"/><br/>
+    <input type="button" value="Add" onclick="onFormSubmit()"/><br/>
+    <input type="reset" value="Reset"><br/>
+    <button onclick="goBack()">Go Back</button><br/>
+    <hr/>
+    
+    <table id="employeeList" style="border: 5px solid blue; border-collapse: collapse; margin: 10px;"> 
+       <thead><h2><u>Annual Budget</u></h2>
+           <tr>
+               
+               <th>Client Name</th>
+               <th>Project Name</th>
+               <th>Budget</th>
+           </tr>
+       </thead> 
+       <tbody>
+
+       </tbody>
+    </table>
+</form>
+</body>
+</html>
