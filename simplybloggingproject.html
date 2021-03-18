@@ -1,0 +1,54 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="simplybloggingproject.js"></script>
+</head>
+<style>
+    h2 {text-align: center;} </style>
+<h2><u>Simply Blogging</u></h2>
+<style>nav {text-align: right;} </style>
+<nav>
+    <a href="">Add Blog</a> |
+    <a href="">Home</a> |
+    <a href="">About Us</a> |
+    <a href="">Contact</a>
+  </nav>
+<body>
+    <form>
+    <label>Title:</label>
+     <input type="text" id="title"/>
+    <label>Article:</label>
+    <textarea type="text" id="desc">
+        </textarea>
+    <input type="file" id="imageId"/>
+    <input type="button" value="Add Blog" onclick="addBlog()"/> 
+    <input type="button" value="Save In Session" onclick="storeInSession()"/>
+    <input type="button" value="Retrieve From Session" onclick="retrieveFromSession()"/>
+    </form>
+    <hr/>
+    <div>
+        <div id="title"></div>
+        <div id="desc"></div>
+        <img src="" id="imageId"/>
+    </div>
+    <hr/>
+    <table id="clientDetails">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    
+</body>
+</html>
