@@ -1,0 +1,56 @@
+<h1>Task Tracker</h1>
+<hr>
+<div>
+    <h2><u>To-Do Tasks</u></h2>
+
+<div>
+    <hr/>
+    
+    <input type="text" [(ngModel)] = "id" placeholder="id"/><br/>
+    <input type="text" [(ngModel)] = "name" placeholder="name"/><br/>
+    <input type="textarea" [(ngModel)] = "task" placeholder="task"/><br/>
+    <input type="date" [(ngModel)] = "deadline" placeholder="deadlinem"/><br/>
+    <button mat-stroked-button color="primary"
+        style="background-color:gold;" type="submit">Submit</button>
+        &nbsp;
+
+        <button mat-stroked-button color="primary"
+        style="background-color: gold;" type="reset">Reset</button>
+
+</div>
+<table id="taskList" style="border: 2px solid black; border-collapse:collapse;">
+<thead>
+    <tr>
+        <th>Id:</th>
+        <th>Name:</th>
+        <th>Task:</th>
+        <th>DeadLine:</th>
+    </tr>
+    <tr>
+        <td>{{id}}</td>
+        <td>{{name}}</td>
+        <td>{{task}}</td>
+        <td>{{deadline}}</td>
+    </tr>
+</thead>
+<tbody>
+
+</tbody>
+</table>
+<!-- <div>
+    <h2>Add Employee details</h2>
+    <form #empRef="ngForm" (ngSubmit)="storeUser(empRef.value)">
+        <mat-form-field>
+            <mat-label>Id</mat-label>
+            <input matInput type="text" name="id" ngModel/>
+        </mat-form-field>
+        &nbsp;
+        <mat-form-field>
+            <mat-label>Name</mat-label>
+            <input matInput type="text" name="name" ngModel/>
+        </mat-form-field>
+        <br/>
+        <button mat-stroked-button color="primary"
+        style="background-color:gold;" type="submit">Store</button>
+    </form>
+</div> -->
