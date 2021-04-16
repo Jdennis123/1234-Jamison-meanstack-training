@@ -1,14 +1,6 @@
-[
-  {
-    "empId": "100",
-    "taskId": "100",
-    "task": "Finish Project",
-    "deadline": "2021-04-09"
-  },
-  {
-    "empId": "101",
-    "taskId": "101",
-    "task": "Turn in Project",
-    "deadline": "2021-04-09"
-  }
-]
+{
+  "_id": 4,
+  "pname": "Laptop",
+  "price": 1000,
+  "__v": 0
+}
